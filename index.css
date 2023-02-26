@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+.big_logo {
+    width: 200px;
+    height: 200px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.blog_moto {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.featured_posts {
+    background-color: #EED9AC;
+}
+
+.featured_posts_photos {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 300px;
+    justify-content: center;
+    gap: 90px;
+    margin: auto;
+}
+
+.container_link {
+    position: relative;
+}
+
+.photo_hover {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 3px;
+    background-color: #89bb7a;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.featured_posts div img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.featured_posts div img:hover {
+    opacity: 0.5;
+}

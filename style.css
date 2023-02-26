@@ -11,6 +11,8 @@ h1 {
     font-size: 3em;
     color: #518554;
     font-family: 'Concert One', cursive;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -28,11 +30,6 @@ header, footer {
     background-color: #518554;
     padding: 10px 50px;
     color: white;
-}
-
-header
-{
-    position: sticky;
 }
 
 nav {
@@ -57,65 +54,6 @@ section {
     padding: 20px;
 }
 
-.big_logo {
-    width: 200px;
-    height: 200px;
-}
-
-.introduction {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 30px;
-}
-
-.blog_moto {
-    font-size: 1.2em;
-    font-style: italic;
-}
-
-.featured_posts {
-    background-color: #EED9AC;
-}
-
-.featured_posts h1 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.featured_posts_photos {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    height: 250px;
-    justify-content: center;
-    gap: 90px;
-    margin: auto;
-}
-
-.photo_caption {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30px;
-    width: 80%;
-    justify-content: center;
-    gap: 90px;
-    font-size: 1em;
-    padding-left: 5px;
-    margin: auto;
-}
-
-.featured_posts div img {
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-}
-
-.featured_posts div img:hover {
-    opacity: 0.5;
-}
-
 .cta {
     display: inline-block;
     background: linear-gradient(#518554, #89BB7E);
@@ -129,21 +67,6 @@ section {
 .cta_button {
     display: flex;
     justify-content: center;
-}
-
-footer {
-    font-style: italic;
-    font-size: 0.8em;
-    text-align: center;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.cta:hover {
-    background: linear-gradient(#89BB7E, #518554);
-    text-decoration: none;
 }
 
 .small_me {
@@ -164,9 +87,25 @@ a:hover {
 
 .about_me {
     text-align: justify;
+    padding: 0px;
 }
 
 .about_me_small a:hover {
     text-decoration: none;
     opacity: 0.5;
+}
+
+footer {
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta:hover {
+    background: linear-gradient(#89BB7E, #518554);
+    text-decoration: none;
 }
