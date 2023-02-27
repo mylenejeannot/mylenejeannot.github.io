@@ -107,3 +107,11 @@ th, td {
     width: 600px;
     height: 400px;
 }
+
+.detailed_information h2 {
+    padding-bottom: 10px;
+}
+
+.middle_title {
+    padding-top: 20px;
+}
