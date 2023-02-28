@@ -22,6 +22,13 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    color: #89BB7E;
+    font-family: 'Concert One', cursive;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
