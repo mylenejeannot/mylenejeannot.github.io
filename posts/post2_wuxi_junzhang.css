@@ -70,7 +70,7 @@ th, td {
     border-radius: 5px;
 }
 
-.pictures_post2 {
+.pictures_post {
     display: flex;
     flex-direction: row;
     justify-content: center;
