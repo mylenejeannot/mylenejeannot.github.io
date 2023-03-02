@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+.big_logo {
+    width: 200px;
+    height: 200px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.blog_moto {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.wechat_logo, .email_logo {
+    width: 50px;
+    height: 50px;
+}
+
+.contact_details {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 200px;
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.box1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: auto;
+}
+
+.box2, .box3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.me {
+    border-radius: 10px;
+}
