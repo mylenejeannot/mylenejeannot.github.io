@@ -8,36 +8,42 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #518554;
     font-family: 'Concert One', cursive;
     text-align: center;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 h3 {
+    font-size: 0.8em;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
     margin-bottom: 5px;
     text-align: center;
+    font-weight: 200;
 }
 
 h4 {
     font-size: 1.3em;
-    color: #518554;
     font-family: 'Concert One', cursive;
     margin-bottom: 10px;
-}
+    color: #518554;
+    font-weight: 300;
+    }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 header, footer {
