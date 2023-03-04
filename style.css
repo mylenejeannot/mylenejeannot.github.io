@@ -169,17 +169,21 @@ a:hover {
         flex-direction: column;
         gap: 3%;
         width: 90%;
+        padding: 0%;
+        padding-bottom: 3%;
         margin: auto;
     }
 
     .about_me_small h2 {
         text-align: center;
         padding-top: 2%;
+        padding-left: 0%;
     }
 
-    .about_me {
+    .about_me p {
         text-align: justify;
-        padding-left: 0;
+        padding: 0%;
+        margin: auto;
     }
 
     .cta {
