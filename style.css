@@ -12,7 +12,7 @@ h1 {
     color: #518554;
     font-family: 'Concert One', cursive;
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 10px;
     font-weight: 400;
 }
 
@@ -20,7 +20,7 @@ h2 {
     font-size: 1.5rem;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
-    margin-bottom: 3%;
+    margin-bottom: 8px;
     font-weight: 400;
 }
 
@@ -28,7 +28,7 @@ h3 {
     font-size: 0.8rem;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
-    margin-bottom: 1%;
+    margin-bottom: 5px;
     text-align: center;
     font-weight: 200;
 }
@@ -36,7 +36,7 @@ h3 {
 h4 {
     font-size: 1.3rem;
     font-family: 'Concert One', cursive;
-    margin-bottom: 1%;
+    margin-bottom: 5px;
     color: #518554;
     font-weight: 300;
     }
@@ -55,6 +55,17 @@ header, footer {
     background-color: #518554;
     padding: 1% 5%;
     color: white;
+}
+
+header {
+    position: fixed;
+    width: 90%;
+    z-index: 500;
+    top: 0;
+}
+
+main {
+    margin-top: 50px;
 }
 
 nav {
@@ -94,7 +105,7 @@ nav a {
 }
 
 section {
-    padding: 2%;
+    padding: 20px;
 }
 
 .cta {
@@ -103,8 +114,8 @@ section {
     color: white;
     border-radius: 50px;
     padding: 1% 1.5%;
-    margin-top: 2%;
-    margin-bottom: 1%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .cta_button {
@@ -158,33 +169,9 @@ a:hover {
 }
 
 @media all and (max-width: 980px) {
-    h1 {
-        font-size: 2.5rem;
-        color: #518554;
-        font-family: 'Concert One', cursive;
-        text-align: center;
-        margin-bottom: 5%;
-        font-weight: 400;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-        color: #89BB7E;
-        font-family: 'Concert One', cursive;
-        margin-bottom: 5%;
-        font-weight: 400;
-    }
-    
-    h4 {
-        font-size: 1.3rem;
-        font-family: 'Concert One', cursive;
-        margin-bottom: 2%;
-        color: #518554;
-        font-weight: 300;
-        }
 
     nav a {
-        margin-left: 10px;
+        margin-left: 15px;
         color: white;
         text-decoration: none;
     }
@@ -192,8 +179,8 @@ a:hover {
     .small_me {
         max-width: 200px;
         height: auto;
-        padding-top: 5%;
-        padding-bottom: 3%;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 
     .about_me_small {
@@ -202,13 +189,13 @@ a:hover {
         gap: 3%;
         width: 90%;
         padding: 0%;
-        padding-bottom: 3%;
+        padding-bottom: 20px;
         margin: auto;
     }
 
     .about_me_small h2 {
         text-align: center;
-        padding-top: 2%;
+        padding-top: 10px;
         padding-left: 0%;
     }
 
