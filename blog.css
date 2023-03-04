@@ -54,3 +54,28 @@
 .grid img:hover h4 {
     text-decoration: underline;
 }
+
+@media all and (max-width: 980px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 0.5fr 0.1fr;
+        width: 90%;
+        justify-content: center;
+        gap: 3%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .grid img {
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .grid h4, .grid p {
+        max-width: 400px;
+    }
+}
