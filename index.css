@@ -47,3 +47,15 @@ figure {
 .featured_posts div img:hover {
     opacity: 0.5;
 }
+
+@media all and (max-width: 980px) {
+    .featured_posts_photos {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        width: 90%;
+        justify-content: center;
+        gap: 3%;
+        margin: auto;
+    }
+}
