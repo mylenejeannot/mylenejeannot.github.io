@@ -2,34 +2,17 @@
     margin: 0;
 }
 
-.big_logo {
-    width: 200px;
-    height: 200px;
-}
-
-.introduction {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 30px;
-}
-
-.blog_moto {
-    font-size: 1em;
-    font-style: italic;
-}
-
 .wechat_logo, .email_logo {
-    width: 50px;
-    height: 50px;
+    max-width: 100%;
+    min-width: 20px;
+    height: auto;
 }
 
 .contact_details {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 200px;
-    gap: 10px;
+    grid-template-columns: 2fr 0.2fr 1fr;
+    grid-template-rows: auto;
+    gap: 0;
     width: 70%;
     margin: auto;
 }
@@ -38,15 +21,55 @@
     grid-row-start: 1;
     grid-row-end: 3;
     margin: auto;
+    padding-right: 3%;
 }
 
-.box2, .box3 {
+.box2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+}
+
+.box3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+}
+
+.box4 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: left;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
     align-items: center;
+    padding-left: 2%;
+    
+}
+
+.box5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
 }
 
 .me {
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.box3 {
+    inline-size: 1fr;
+    word-wrap: break-word;
 }

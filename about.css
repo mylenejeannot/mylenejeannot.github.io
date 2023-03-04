@@ -3,10 +3,10 @@
 }
 
 .about_me img {
-    width: 300px;
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    max-width: 300px;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .about_me {
@@ -14,12 +14,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 2%;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .about_me_pictures {
@@ -27,26 +27,26 @@ h2 {
 }
 
 .about_me_pictures img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .row1 {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     justify-content: center;
-    gap: 15px;
-    margin-bottom: 15px;
+    gap: 2%;
+    margin-bottom: 1%;
 }
 
 .row2 {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     justify-content: center;
-    gap: 15px;
-    margin-bottom: 15px;
+    gap: 2%;
+    margin-bottom: 1%;
 }
 
 .big_picture {
@@ -58,15 +58,17 @@ h2 {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: 600;
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
+    text-align: center;
+    padding: 3%;
 }
 
 .big_picture:hover .photo_hover {
@@ -74,10 +76,10 @@ h2 {
 }
 
 .about_blog img {
-    width: 300px;
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    max-width: 300px;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 .about_blog {
@@ -92,4 +94,15 @@ p {
     width: 80%;
     margin: auto;
     padding-bottom: 5px;
+}
+
+.blog_moto {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    border-left: #FED269 solid 5px;
+    border-right: #FED269 solid 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 3%;
 }
