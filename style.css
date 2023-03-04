@@ -8,47 +8,52 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: #518554;
     font-family: 'Concert One', cursive;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 2%;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     font-weight: 400;
 }
 
 h3 {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
-    margin-bottom: 5px;
+    margin-bottom: 0.5%;
     text-align: center;
     font-weight: 200;
 }
 
 h4 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-family: 'Concert One', cursive;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     color: #518554;
     font-weight: 300;
     }
 
+p {
+    font-size: 1rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+    font-size: 1rem;
 }
 
 header, footer {
     background-color: #518554;
-    padding: 10px 50px;
+    padding: 1% 5%;
     color: white;
 }
 
@@ -70,8 +75,26 @@ nav a {
     text-decoration: none;
 }
 
+.big_logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.blog_moto {
+    font-size: 1rem;
+    font-style: italic;
+}
+
 section {
-    padding: 20px;
+    padding: 2%;
 }
 
 .cta {
@@ -79,9 +102,9 @@ section {
     background: linear-gradient(#518554, #89BB7E);
     color: white;
     border-radius: 50px;
-    padding: 10px 15px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    padding: 1% 1.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .cta_button {
@@ -90,8 +113,8 @@ section {
 }
 
 .small_me {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    height: auto;
 }
 
 .about_me_small {
@@ -99,7 +122,7 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 3%;
     width: 80%;
     margin: auto;
     padding: 30px;
@@ -117,7 +140,7 @@ section {
 
 footer p {
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-align: center;
 }
 

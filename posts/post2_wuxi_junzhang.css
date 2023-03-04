@@ -3,24 +3,22 @@
 }
 
 h1 {
-    padding-top: 30px;
-    padding-bottom:20px;
+    padding-top: 2%;
+    padding-bottom: 1%;
     width: 90%;
     margin: auto;
 }
 
 p {
     text-align: justify;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 0.5%;
 }
 
 .post_content p {
     text-align: justify;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    padding-bottom: 5px;
+    padding-bottom: 0.5%;
 }
 
 .title {
@@ -28,10 +26,10 @@ p {
 }
 
 .introduction img {
-    width: 400px;
-    height: 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 table {
@@ -57,13 +55,14 @@ th, td {
 }
 
 .landscape {
-    width: 400px;
-    height: 300px;
+    max-width: 100%;
+    min-height: 300px;
+    object-fit: cover;
 }
 
 .portrait {
-    width: 225px;
-    height: 300px;
+    max-height: 300px;
+    width: auto;
 }
 
 .landscape, .portrait {
@@ -74,9 +73,11 @@ th, td {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    gap: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+    margin: auto;
 }
 
 .detailed_information {
@@ -84,7 +85,7 @@ th, td {
 }
 .small_italics {
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 .column11, .column12 {
@@ -95,45 +96,40 @@ th, td {
     text-align: center;
 }
 
-.after_table p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .detailed_information img {
     display: block;
     margin: auto;
 }
 
 .image20 {
-    width: 450px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .image21 {
-    width: 200px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .image22 {
-    width: 450px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .detailed_information h2 {
-    padding-bottom: 10px;
+    padding-bottom: 1%;
 }
 
 .middle_title {
-    padding-top: 20px;
+    padding-top: 1%;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 450px 200px 450px;
-    grid-template-rows: 300px 60px;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: auto;
     justify-content: center;
-    gap: 30px;
+    gap: 3%;
 }
 
 .grid_text {
