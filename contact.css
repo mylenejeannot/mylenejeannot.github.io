@@ -127,7 +127,7 @@
         height: auto;
         margin: auto;
         text-align: center;
-        padding-bottom: 5%;
+        padding-bottom: 10px;
     }
 
     .wechat_logo, .email_logo {

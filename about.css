@@ -5,8 +5,8 @@
 .about_me img {
     max-width: 300px;
     height: auto;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .about_me {
@@ -19,7 +19,7 @@
 
 h2 {
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 10px;
 }
 
 .about_me_pictures {
@@ -78,8 +78,8 @@ h2 {
 .about_blog img {
     max-width: 300px;
     height: auto;
-    margin-top: 1%;
-    margin-bottom: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .about_blog {
@@ -104,5 +104,5 @@ p {
     border-right: #FED269 solid 5px;
     padding-left: 3%;
     padding-right: 3%;
-    margin-top: 3%;
+    margin-top: 10px;
 }
