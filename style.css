@@ -158,12 +158,44 @@ a:hover {
 }
 
 @media all and (max-width: 980px) {
+    h1 {
+        font-size: 2.5rem;
+        color: #518554;
+        font-family: 'Concert One', cursive;
+        text-align: center;
+        margin-bottom: 5%;
+        font-weight: 400;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        color: #89BB7E;
+        font-family: 'Concert One', cursive;
+        margin-bottom: 5%;
+        font-weight: 400;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+        font-family: 'Concert One', cursive;
+        margin-bottom: 2%;
+        color: #518554;
+        font-weight: 300;
+        }
+
     nav a {
         margin-left: 10px;
         color: white;
         text-decoration: none;
     }
     
+    .small_me {
+        max-width: 200px;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+
     .about_me_small {
         display: flex;
         flex-direction: column;

@@ -182,4 +182,14 @@ th, td {
         max-height: 100%;
         width: auto;
     }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        gap: 3%;
+        width: 90%;
+        margin: auto;
+    }
 }
