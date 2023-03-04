@@ -12,7 +12,7 @@ h1 {
     color: #518554;
     font-family: 'Concert One', cursive;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     font-weight: 400;
 }
 
@@ -20,7 +20,7 @@ h2 {
     font-size: 1.5rem;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     font-weight: 400;
 }
 
@@ -28,7 +28,7 @@ h3 {
     font-size: 0.8rem;
     color: #89BB7E;
     font-family: 'Concert One', cursive;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     text-align: center;
     font-weight: 200;
 }
@@ -158,6 +158,12 @@ a:hover {
 }
 
 @media all and (max-width: 980px) {
+    nav a {
+        margin-left: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
     .about_me_small {
         display: flex;
         flex-direction: column;
