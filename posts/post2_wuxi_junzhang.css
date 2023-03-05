@@ -186,10 +186,14 @@ th, td {
     .grid {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto;
         justify-content: center;
         gap: 3%;
         width: 90%;
         margin: auto;
+    }
+
+    .detailed_information {
+        padding-bottom: 80px;
     }
 }
