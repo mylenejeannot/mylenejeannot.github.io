@@ -2,13 +2,6 @@
     margin: 0;
 }
 
-h1 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 90%;
-    margin: auto;
-}
-
 p {
     text-align: justify;
     padding-bottom: 5px;
@@ -34,6 +27,7 @@ p {
 
 table {
     border-collapse: collapse;
+    text-align: left;
   }
 
 th, td {
@@ -88,6 +82,10 @@ th, td {
     margin: auto;
 }
 
+th {
+    text-align: center;
+}
+
 .small_italics {
     font-style: italic;
     font-size: 0.9rem;
@@ -134,14 +132,14 @@ th, td {
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: auto;
     justify-content: center;
-    gap: 3%;
+    gap: 10px;
     width: 90%;
     margin: auto;
 }
 
 .grid_text {
     text-align: center;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: rgb(0, 0, 0);
 }
 
@@ -187,7 +185,7 @@ th, td {
         grid-template-columns: auto;
         grid-template-rows: auto;
         justify-content: center;
-        gap: 3%;
+        gap: 10px;
         width: 90%;
         margin: auto;
     }
