@@ -3,8 +3,10 @@
 }
 
 .about_me img {
-    max-width: 300px;
+    max-width: 90%;
     height: auto;
+    display: flex;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -104,5 +106,6 @@ p {
     border-right: #FED269 solid 5px;
     padding-left: 3%;
     padding-right: 3%;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
