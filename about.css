@@ -9,6 +9,7 @@
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .about_me {
@@ -31,6 +32,7 @@ h2 {
 .about_me_pictures img {
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 .row1 {
@@ -68,6 +70,7 @@ h2 {
     font-size: 0.8rem;
     font-weight: 600;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
     display: none;
     text-align: center;
     padding: 3%;

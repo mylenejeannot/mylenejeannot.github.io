@@ -7,7 +7,7 @@
 }
 
 .grid img {
-    border-radius: 10px;
+    border-radius: 5px;
     max-width: 100%;
     height: auto;
 }
@@ -24,6 +24,7 @@
     text-align: justify;
     margin-left: 3%;
     margin-right: 3%;
+    padding-bottom: 15px;
 }
 
 .photo_over {
@@ -65,6 +66,7 @@
         gap: 3%;
         margin: auto;
         text-align: justify;
+        padding-bottom: 50px;
     }
 
     .grid img {
