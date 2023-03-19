@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.post_content p {
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
+.introduction img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+th, td {
+    border: 2px solid #518554;
+    padding: 5px;
+}
+
+.column2 {
+    text-align: center;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #EED9AC;
+}
+
+.landscape {
+    max-width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.portrait {
+    max-height: 300px;
+    width: auto;
+}
+
+.landscape, .portrait {
+    border-radius: 5px;
+}
+
+.pictures_post {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.detailed_information {
+    background-color: #EED9AC;
+}
+
+.detailed_information h2, .detailed_information p {
+    width: 90%;
+    margin: auto;
+}
+
+th {
+    text-align: center;
+}
+
+.small_italics {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.column11, .column12 {
+    text-align: justify;
+}
+
+.column13, .column14 {
+    text-align: center;
+}
+
+.detailed_information img {
+    display: block;
+    margin: auto;
+}
+
+.map {
+    max-width: 100%;
+    height: auto;
+}
+
+.detailed_information h2 {
+    padding-bottom: 10px;
+}
+
+.middle_title {
+    padding-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 3%;
+    width: 90%;
+    margin: auto;
+}
+
+.grid_text {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.after_table:hover a {
+    text-decoration: none;
+}
+
+@media all and (max-width: 980px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+        background-color: #EED9AC;
+    }
+
+    .pictures_post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .landscape {
+        max-width: 300px;
+        min-height: auto;
+        object-fit: cover;
+    }
+
+    .portrait {
+        max-height: 100%;
+        width: auto;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        gap: 3%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .detailed_information {
+        padding-bottom: 80px;
+    }
+}
